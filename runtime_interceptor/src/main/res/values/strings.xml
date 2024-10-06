@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Runtime Interceptor</string>
+    <string name="fetch_breeds">fetch breeds</string>
+</resources>

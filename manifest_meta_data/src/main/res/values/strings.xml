@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Manifest Meta Data</string>
+    <string name="fetch_breeds">fetch breeds</string>
+</resources>
