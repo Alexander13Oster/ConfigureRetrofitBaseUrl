@@ -20,7 +20,8 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "ConfigureRetrofitBaseUrl"
-include(":flavour_constants")
+include(":flavor_constants_build_config")
+include(":flavor_constants_folder")
 include(":runtime_interceptor")
 include(":manifest_meta_data")
 include(":manifest_meta_data_sdk")

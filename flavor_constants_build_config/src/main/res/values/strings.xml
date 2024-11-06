@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Flavor Constants BuildConfig</string>
+    <string name="fetch_breeds">fetch breeds</string>
+</resources>
