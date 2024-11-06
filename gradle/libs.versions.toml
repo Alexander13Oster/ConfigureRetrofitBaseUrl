@@ -3,22 +3,22 @@ agp = "8.7.2"
 androidxHiltNavigationCompose = "1.2.0"
 arrowCore = "1.2.4"
 kotlin = "2.0.20"
-coreKtx = "1.13.1"
+coreKtx = "1.15.0"
 hilt = "2.51.1"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 ksp = "2.0.20-1.0.25"
 espressoCore = "3.6.1"
-lifecycleRuntimeKtx = "2.8.6"
-activityCompose = "1.9.2"
-composeBom = "2024.09.03"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.9.3"
+composeBom = "2024.10.01"
 moshiKotlin = "1.14.0"
 okhttp = "4.12.0"
 retrofit = "2.11.0"
 retrofitAdaptersArrow = "1.0.12"
 datastorePreferences = "1.1.1"
-appcompat = "1.6.1"
-material = "1.10.0"
+appcompat = "1.7.0"
+material = "1.12.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -53,7 +53,6 @@ material = { group = "com.google.android.material", name = "material", version.r
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
